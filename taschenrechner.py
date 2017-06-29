@@ -16,16 +16,16 @@ def parse_atom(token):
 
 #---------------------
 def add(a, b):
-    return a  # FIXME
+    return a+b
 
 def sub(a, b):
-    return a  # FIXME
+    return a-b
     
 def mult(a, b):
-    return a  # FIXME
+    return a*b
 
 def div(a, b):
-    return a  # FIXME
+    return a/b
 
 operations = {
     '+': add,

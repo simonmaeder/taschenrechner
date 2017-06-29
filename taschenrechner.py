@@ -4,7 +4,7 @@ from __future__ import print_function, division
 
 #---------------------
 def tokenize(program):
-    return program  # FIXME
+    return program.replace('(', ' ( ').replace(')', ' ) ').split()
 
 #---------------------
 def parse(tokens):
